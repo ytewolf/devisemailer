@@ -36,6 +36,9 @@ Rails.application.configure do
   # Raises helpful error messages.
   config.assets.raise_runtime_errors = true
 
-  # Raises error for missing translations
+  #Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+config.hosts << "737d5628dc444b9490f9044e61fb4daf.vfs.cloud9.us-east-2.amazonaws.com"
+
 end
